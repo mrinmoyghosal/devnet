@@ -1,3 +1,5 @@
+![develop](https://github.com/mrinmoyghosal/devnet/workflows/build/badge.svg?branch=develop)
+
 ## Developer Connected API
 
 This application finds if the provided usernames are connected or not. 
