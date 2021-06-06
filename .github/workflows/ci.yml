@@ -35,8 +35,10 @@ jobs:
           sudo apt-get install python3.9
           pip install pipenv
           pipenv install
-          flask db migrate
-          pytest app
-          flake8 app
+          
+          pipenv run flake8 app
+          pipenv run pylint --fail-under 10 --load-plugins pylint_flask_sqlalchemy app
+          
+          pipenv run pytest app
           
           
