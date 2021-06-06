@@ -1,4 +1,4 @@
-![develop](https://github.com/mrinmoyghosal/devnet/workflows/build/badge.svg?branch=develop)
+![develop](https://github.com/mrinmoyghosal/devnet/actions/workflows/ci.yml/badge.svg)
 
 ## Developer Connected API
 
