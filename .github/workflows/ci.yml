@@ -39,6 +39,6 @@ jobs:
           pipenv run flake8 app
           pipenv run pylint --fail-under 10 --load-plugins pylint_flask_sqlalchemy app
           
-          pipenv run pytest app
+          pipenv run pytest --rootdir app --disable-warnings
           
           
