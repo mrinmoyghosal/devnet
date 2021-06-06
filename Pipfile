@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sqlalchemy = "*"
+flask-sqlalchemy = "*"
+pandas = "*"
+flask = "==1.1.4"
+pygithub = "*"
+tweepy = {editable = true, git = "https://github.com/tweepy/tweepy.git"}
+flask-restx = "*"
+flake8 = "*"
+pylint = "*"
+pylint-flask-sqlalchemy = "*"
+pylint-flask = "*"
+pytest-flask-sqlalchemy = "*"
+pytest-mock = "*"
+flask-migrate = "*"
+flask-script = "*"
+flask-alembic = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
