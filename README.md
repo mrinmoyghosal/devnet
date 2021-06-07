@@ -110,4 +110,6 @@ pytest --rootdir app --disable-warnings
 ```
 /api/v1/
 ```
-
+### TODO
+* Dedicated Service Workers for Twitter and Github
+* Better rate-limit handling strategy
